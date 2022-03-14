@@ -19,3 +19,18 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+
+Route::get('/link-one', function () {
+    return view('link-one');
+})->name('link-one');
+
+
+Route::get('/link-two', function () {
+    return view('link-two');
+})->name('link-two');
+
+
+Route::get('/link-three', function () {
+    return view('link-three');
+})->name('link-three');
