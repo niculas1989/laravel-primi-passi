@@ -10,6 +10,9 @@
 
 <body>
     <h1>Test</h1>
+    @foreach ($welcome as $wl)
+    <p>{{ $wl }}</p>
+    @endforeach
 </body>
 
 </html>
